@@ -8,7 +8,6 @@ mongoose.connect(process.env.MONGO_DB)
 
 app.use(express.static("uploads"));
 
-
 app.use(cors());
 app.use(express.json());
 
